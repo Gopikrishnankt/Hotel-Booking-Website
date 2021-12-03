@@ -1,0 +1,35 @@
+body
+{
+    margin: 0%;
+    background-color: #e0e0e0;
+}
+header    
+{
+    background-color: rosybrown;
+}
+footer
+{
+    background-color: rosybrown;
+}
+.List-Item
+{
+    background-color:  rgb(132,136,139);
+    margin: 2%;
+    width: 40%;
+}
+#logo
+{
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+}
+.social-Img
+{
+    height: 20px;
+    width: 22px;
+}
+.hotel-Img
+{
+    height: 200px;
+    width: 250px;
+}

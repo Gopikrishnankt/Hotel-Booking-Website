@@ -1,0 +1,44 @@
+body
+{
+    margin: 0%;
+    background-color: #e0e0e0;
+}
+header    
+{
+    background-color: rosybrown;
+}
+footer
+{
+    background-color: rosybrown;
+}
+#logo
+{
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+}
+#content
+{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+#Description
+{
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+form
+{
+    margin-bottom: 1%;
+}
+.social-Img
+{
+    height: 20px;
+    width: 22px;
+}
+#Radison
+{
+    height: 500px;
+    width: 500px;
+    margin-top: 2%;
+}
