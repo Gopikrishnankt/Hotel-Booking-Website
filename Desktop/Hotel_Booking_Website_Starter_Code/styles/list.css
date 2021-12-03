@@ -1,6 +1,21 @@
 body
 {
     margin: 0%;
+    background-color: #e0e0e0;
+}
+header    
+{
+    background-color: rosybrown;
+}
+footer
+{
+    background-color: rosybrown;
+}
+.List-Item
+{
+    background-color:  rgb(132,136,139);
+    margin: 2%;
+    width: 40%;
 }
 #logo
 {
