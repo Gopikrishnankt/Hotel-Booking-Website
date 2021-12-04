@@ -1,15 +1,31 @@
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu&display=swap);
 body
 {
     margin: 0%;
     background-color: #e0e0e0;
+    font-family: 'Ubuntu', sans-serif;
 }
-header    
+header
 {
     background-color: rosybrown;
+    font-family: 'Ubuntu' sans-serif;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    position: sticky;
+    top: 0;
 }
-footer
+#login
 {
-    background-color: rosybrown;
+    margin-right: 10px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
 }
 #logo
 {
@@ -46,4 +62,28 @@ footer
 {
     height: 500px;
     width: 500px;
+}
+footer
+{
+    background-color: rosybrown;
+    font-family:'Ubuntu' sans-serif;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+#social-container
+{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+#contactUs
+{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#Copyright
+{
+margin-top: 50px;
 }
