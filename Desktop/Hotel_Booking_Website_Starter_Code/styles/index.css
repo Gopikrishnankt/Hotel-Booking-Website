@@ -47,41 +47,73 @@ header
 }
 #login
 {
-    margin-right: 10px;
+    margin-right: 2%;
 }
 #logo
 {
     border-radius: 100%;
     height: 60px;
     width: 60px;
+    margin-left: 1%;
 }
-footer
+#Img-Container
 {
-    background-color: rosybrown;
-    font-family:'Ubuntu' sans-serif;
-    width: 100%;
-    position: sticky;
-    bottom: 0;
-    display: flex;
-    justify-content: space-between;
-}
-#City-Img-Container
-{
-    margin-left: 15%;
-    margin-right: 15%;
     text-align: center;
     align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
 }
-.City-Img
+.City-Img img
 {
     height: 150px;
     width: 150px;
-    padding: 4%;
+    border-radius: 25%;  
+    box-shadow: 10px 10px 10px gray ;
+}
+.City-Img-Container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    float: left;
+    border-radius: 25%; 
+    margin-top: 10px;
+}
+.City-Img-Container .alpha
+{
+    display: none;
     border-radius: 25%;
+    margin: auto;
+}
+.alpha
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+.City-Img-Container:hover .alpha
+{
+    display: block;
+    line-height: 150px;
+    color: #f1f1f1;
+    float: left;
+    background: rgba(0, 0, 0, 0.5);
+    align-content: center;
+  text-align: center;
+ 
+}
+.City-Img
+{
+    display: block;
 }
 #viewmore
 {
     text-align: center;
+    padding-bottom: 50px;
 }
 .social-Img
 {
@@ -101,14 +133,18 @@ footer
 #social-container
 {
     margin-top: 20px;
-    margin-right: 10px;
+    margin-right: 2%;
 }
 #contactUs
 {
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 2%;
 }
 #Copyright
 {
-margin-top: 50px;
+margin: 20px;
+}
+input:focus
+{
+    outline: none;
 }

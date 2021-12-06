@@ -20,7 +20,7 @@ header
 }
 #login
 {
-    margin-right: 10px;
+    margin-right: 2%;
 }
 a
 {
@@ -38,21 +38,39 @@ a
     background-color: rgb(132,136,139) ;
     width: 50%;
     height: 20%;
-    margin: auto;
+    margin: 5% auto;
     margin-top: 2%;
     margin-bottom: 2%;
+    display: flex;
 }
-#customer-Details
+#hotel-Details
 {
-    margin: 2%;
+    padding: 3%;
 }
-#tarrif-Details
+#content
 {
-    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.detail-Title
+{
+    font-family: cursive;
+}
+#payment-Box
+{
+    display: flex; 
     border: 1px solid black;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5% 2% 15%;
     border-radius: 5px;
-    padding: 1% 2% 1% 2%;
+    padding: 10px;
+    background-color: rosybrown;
+    border-radius: 5px;
 }
+
 .social-Img
 {
     height: 20px;
@@ -60,15 +78,16 @@ a
 }
 #Radison
 {
-    height: 500px;
-    width: 500px;
+    max-height: 300px;
+    max-width: 270px;
+    margin-right: 2%;
 }
 footer
 {
     background-color: rosybrown;
     font-family:'Ubuntu' sans-serif;
     width: 100%;
-    position: sticky;
+    position: fixed;
     bottom: 0;
     display: flex;
     justify-content: space-between;
@@ -76,14 +95,14 @@ footer
 #social-container
 {
     margin-top: 20px;
-    margin-right: 10px;
+    margin-right: 2%;
 }
 #contactUs
 {
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 2%;
 }
 #Copyright
 {
-margin-top: 50px;
+    margin: 20px;
 }

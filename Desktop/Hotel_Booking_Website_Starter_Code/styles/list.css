@@ -20,7 +20,7 @@ header
 }
 #login
 {
-    margin-right: 10px;
+    margin-right: 2%;
 }
 a
 {
@@ -45,7 +45,7 @@ li
 }
 .List-Item
 {
-    background-color:  rgb(132,136,139);
+    background-color: lightgray;
     margin: 2% 5%;
     width: 40%;
    float: left;
@@ -66,7 +66,14 @@ li
 {
     height: 200px;
     width: 250px;
+    float: left;
+    margin-right: 2%;
 }
+.hotel-Details
+{
+    padding: 2% 2%;
+}
+
 footer
 {
     background-color: rosybrown;
@@ -80,14 +87,14 @@ footer
 #social-container
 {
     margin-top: 20px;
-    margin-right: 10px;
+    margin-right: 2%;
 }
 #contactUs
 {
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 2%;
 }
 #Copyright
 {
-margin-top: 50px;
+    margin: 20px;
 }
