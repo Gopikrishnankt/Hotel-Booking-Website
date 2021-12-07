@@ -18,6 +18,12 @@ header
     position: sticky;
     top: 0;
 }
+.float-md-right
+{
+    padding-right:20px;
+    padding-top: 12px;
+    font-family:'Ubuntu' sans-serif ;
+}
 #login
 {
     margin-right: 2%;
@@ -83,7 +89,7 @@ h4
     max-height: 400px;
 }
 .form-element{
-    margin-bottom: 10%;
+    margin-bottom: 6%;
     vertical-align: middle;
 }
 .form-element:first-child
@@ -98,8 +104,8 @@ h4
 }
 #button1
 {
+    width: max-content;
   margin: 0 50% ;
-    padding: 2% ;
 }
 label
 {
@@ -107,15 +113,15 @@ label
     width: 150px;
     margin-left: 20px;
 }
+
 footer
 {
     background-color: rosybrown;
     font-family:'Ubuntu' sans-serif;
-    width: 100%;
     position: sticky;
-    bottom: 0;
-    display: flex;
-    justify-content: space-between;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
 }
 #social-container
 {
@@ -129,5 +135,7 @@ footer
 }
 #Copyright
 {
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 0%;
+    padding-bottom: 0;;
 }

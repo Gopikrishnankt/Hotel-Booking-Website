@@ -18,6 +18,12 @@ header
     position: sticky;
     top: 0;
 }
+.float-md-right
+{
+    padding-right:20px;
+    padding-top: 12px;
+    font-family:'Ubuntu' sans-serif ;
+}
 #login
 {
     margin-right: 2%;
@@ -51,6 +57,18 @@ li
    float: left;
    padding-top: 0;
 }
+#mapbtn:focus #mapView
+{
+    display: block;
+}
+#mapbtn:focus #listView
+{
+    display: none;
+}
+.List-Item:hover
+{
+    background-color: rosybrown;
+}
 #logo
 {
     border-radius: 100%;
@@ -73,16 +91,14 @@ li
 {
     padding: 2% 2%;
 }
-
 footer
 {
     background-color: rosybrown;
     font-family:'Ubuntu' sans-serif;
-    width: 100%;
-    position: sticky;
-    bottom: 0;
-    display: flex;
-    justify-content: space-between;
+    position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
 }
 #social-container
 {
@@ -93,8 +109,4 @@ footer
 {
     margin-top: 20px;
     margin-left: 2%;
-}
-#Copyright
-{
-    margin: 20px;
 }
