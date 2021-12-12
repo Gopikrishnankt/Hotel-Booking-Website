@@ -153,3 +153,19 @@ input:focus
 {
     outline: none;
 }
+
+@media only screen and (max-width: 768px) {
+
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:576px) {
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }

@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Ubuntu&display=swap);
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css');
 body
 {
     margin: 0%;
@@ -47,7 +48,7 @@ li
 }
 #mapView
 {
-    display: none;
+    display: block;
 }
 .List-Item
 {
@@ -90,6 +91,10 @@ li
 .hotel-Details
 {
     padding: 2% 2%;
+}
+.checked 
+{
+    color: orange;
 }
 footer
 {

@@ -74,6 +74,10 @@ form
     width:60%;
     margin-right: 5%;
 }
+.checked 
+{
+    color: orange;
+}
 h4
 {
     font-family: cursive;
@@ -138,4 +142,7 @@ footer
     margin-top: 20px;
     margin-bottom: 0%;
     padding-bottom: 0;;
+}
+.carousel-inner {
+    box-shadow: 5px 10px 10px #d7d7d7;
 }
